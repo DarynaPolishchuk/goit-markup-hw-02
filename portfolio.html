@@ -38,17 +38,17 @@
     <main>
       <h1 hidden>Приммеры работ</h1>
       <ul>
-        <li><button>Все</button></li>
-        <li><button>Веб-сайты</button></li>
-        <li><button>Приложения</button></li>
-        <li><button>Дизайн</button></li>
-        <li><button>Маркетинг</button></li>
+        <li><button class="button">Все</button></li>
+        <li><button class="button-active">Веб-сайты</button></li>
+        <li><button class="button-active">Приложения</button></li>
+        <li><button class="button-active">Дизайн</button></li>
+        <li><button class="button-active">Маркетинг</button></li>
       </ul>
       <ul>
         <li>
           <a href="">
             <img src="./image/gallery/img1.jpg" alt="ноутбук" />
-            <h3>Технокряк</h3>
+            <h3 class="type-of-services-title link">Технокряк</h3>
             <p>Веб-сайт</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -60,35 +60,45 @@
         <li>
           <a href="">
             <img src="./image/gallery/img2.jpg" alt="Баскетболисты" />
-            <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+            <h3 class="type-of-services-title link">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h3>
             <p>Дизайн</p>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./image/gallery/img3.jpg" alt="Логотип ресторана" />
-            <h3>Ресторан <span lang="en">Seafood</span></h3>
+            <h3 class="type-of-services-title link">
+              Ресторан <span lang="en">Seafood</span>
+            </h3>
             <p>Приложение</p>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./image/gallery/img4.jpg" alt="Наушники" />
-            <h3>Проект <span lang="en">Prime</span></h3>
+            <h3 class="type-of-services-title link">
+              Проект <span lang="en">Prime</span>
+            </h3>
             <p>Маркетинг</p>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./image/gallery/img5.jpg" alt="Боксы" />
-            <h3>Проект <span lang="en">Boxes</span></h3>
+            <h3 class="type-of-services-title link">
+              Проект <span lang="en">Boxes</span>
+            </h3>
             <p>Приложение</p>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./image/gallery/img6.jpg" alt="Монитор" />
-            <h3 lang="en">Inspiration has no Borders</h3>
+            <h3 lang="en" class="type-of-services-title link">
+              Inspiration has no Borders
+            </h3>
             <p>Веб-сайт</p>
           </a>
         </li>
@@ -102,14 +112,18 @@
         <li>
           <a href="">
             <img src="./image/gallery/img8.jpg" alt="Бирка" />
-            <h3>Проект <span lang="en">LAB</span></h3>
+            <h3 class="type-of-services-title link">
+              Проект <span lang="en">LAB</span>
+            </h3>
             <p>Маркетинг</p>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./image/gallery/img9.jpg" alt="ноутбук" />
-            <h3 lang="en">Growing Business</h3>
+            <h3 lang="en" class="type-of-services-title link">
+              Growing Business
+            </h3>
             <p>Приложение</p>
           </a>
         </li>
@@ -117,34 +131,62 @@
     </main>
     <footer>
       <div>
-        <a href="index.html" lang="en">Web Studio</a>
+        <a href="index.html" lang="en" class="logo link"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/PsE4YKg6dr8k7Q8X9">
+              <a
+                href="https://goo.gl/maps/PsE4YKg6dr8k7Q8X9"
+                class="footer-address"
+              >
                 г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="mailto:info@example.com" class="footer-mail"
+                >info@example.com</a
+              >
             </li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li>
+              <a href="tel:+380961111111" class="footer-tel"
+                >+38 096 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
       <div>
-        <h4>Присоединяйтесь</h4>
+        <h4 class="call-to-action">Присоединяйтесь</h4>
         <ul>
-          <li><a href="" aria-label="иконка инстаграма"></a></li>
-          <li><a href="" aria-label="иконка твитера"></a></li>
-          <li><a href="" aria-label="иконка фейсбука"></a></li>
-          <li><a href="" aria-label="иконка линкедин"></a></li>
+          <li>
+            <a href="" aria-label="иконка инстаграма"
+              ><img src="./image/social/instagram.svg" alt="иконка инстаграма"
+            /></a>
+          </li>
+          <li>
+            <a href="" aria-label="иконка твитера"
+              ><img src="./image/social/twitter.svg" alt="иконка твитера"
+            /></a>
+          </li>
+          <li>
+            <a href="" aria-label="иконка фейсбука"
+              ><img src="./image/social/facebook.svg" alt="иконка фейсбука"
+            /></a>
+          </li>
+          <li>
+            <a href="" aria-label="иконка линкедин"
+              ><img src="./image/social/linkin.svg" alt="иконка линкедин"
+            /></a>
+          </li>
         </ul>
       </div>
       <div>
-        <h4>Подпишитесь на рассылку</h4>
+        <h4 class="call-to-action">Подпишитесь на рассылку</h4>
 
-        <button>Подписаться</button>
+        <button class="button">Подписаться</button>
       </div>
     </footer>
   </body>
