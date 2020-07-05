@@ -1,0 +1,59 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --secondary-color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  background-color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.link {
+  text-decoration: none;
+}
+
+/*Разметка Хедера*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+.navigation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--accent-color);
+}
+.address > a {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.address > a:hover,
+.address > a:focus {
+  color: var(--accent-color);
+}
