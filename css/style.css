@@ -150,7 +150,6 @@ body {
   text-transform: uppercase;
 }
 .type-of-services-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -165,4 +164,11 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--subtext-color);
+}
+.type-of-services-about-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #e7e1e1;
 }
